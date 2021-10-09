@@ -5,6 +5,7 @@ import compressor
 
 
 def main(directory, quality):
+    print("Compressing files...")
 
     if directory:
         os.chdir(directory)
@@ -28,6 +29,7 @@ def main(directory, quality):
 
         except IsADirectoryError:
             continue
+    print("Done!")
 
 
 directory = input("Enter the path: ")
