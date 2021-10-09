@@ -1,4 +1,4 @@
-# Foobar
+# Image compressor
 
 This application compresses the image files includes ".HEIC" extension.
 
